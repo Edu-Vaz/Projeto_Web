@@ -8,10 +8,6 @@ async function cadastroUsuario() {
   var password2 = document.getElementById("confirmPassword");
   var birthday = document.getElementById("data_nascimento");
 
- /*if (!name.value || !email.value || !cpf_cnpj.value || !password.value || !birthday.value) {
-    alert('Por favor, preencha todos os campos obrigatórios.');
-    return;
- }*/
 
   var hoje = new Date();
   var aniversario = new Date(birthday.value);
