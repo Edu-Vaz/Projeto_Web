@@ -50,19 +50,19 @@ async function cadastroUsuario() {
   let nova_resposta = await respostaApi.json();
   if (nova_resposta.data.statusCode === 422) {
     if (nova_resposta.data.errors.cpf_cnpj) {
-      alert("Cpf/cnpj invalido, insira um valido ou não se tornará um marromba");
+      alert("Cpf/cnpj invalido, insira um valido ou não se tornará um maromba");
     }
     if (nova_resposta.data.errors.email) {
-      alert("email invalido, insira um valido ou não se tornará um marromba");
+      alert("email invalido, insira um valido ou não se tornará um maromba");
     }
     if (nova_resposta.data.errors.password) {
       alert("A senha inserida, não atende aos requisitos");
     }
     if (nova_resposta.data.errors.aniversario) {
-      alert("data invalida, insira uma valida ou não se tornará um marromba");
+      alert("data invalida, insira uma valida ou não se tornará um maromba");
     }
     if (nova_resposta.data.errors.name) {
-      alert("Nome invalido, insira um valido ou não se tornará um marromba");
+      alert("Nome invalido, insira um valido ou não se tornará um maromba");
     }
     
   }
